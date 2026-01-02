@@ -1,0 +1,64 @@
+.vs-node {
+  background: #f3f2f2;
+  border-radius: 12px;
+  min-width: 200px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+ transition: transform 0.15s ease, box-shadow 0.15s ease;
+ border-color: #0a0a0a;
+}
+.vs-node:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(8, 8, 8, 0.911);
+}
+
+
+.vs-node-header {
+  background: #f9fafb;
+  padding: 8px 12px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+  border-radius: 12px 12px 0 0;
+}
+
+.vs-node-body {
+  padding: 12px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.vs-node-body input,
+.vs-node-body select,
+.vs-node-body textarea {
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 12px;
+}
+
+.vs-node-body input:focus,
+.vs-node-body textarea:focus,
+.vs-node-body select:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 1px #6366f1;
+}
+.vs-node-input .vs-node-header {
+  background: #eef2ff;
+}
+
+.vs-node-llm .vs-node-header {
+  background:   #f5f3ff7e
+}
+
+.vs-node-output .vs-node-header {
+  background: #ecfdf5;
+}
+
+.vs-node-text .vs-node-header {
+  background: #fff7ed;
+}
